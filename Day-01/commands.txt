@@ -1,0 +1,22 @@
+# Day 1 Commands
+
+pwd               - Show current working directory
+ls                - List files and folders
+cd                - Change directory
+cd ..             - Go back one directory
+cd ~              - Go to home directory
+cd /c             - Go to C drive (Git Bash)
+cd /d             - Go to D drive (Git Bash)
+clear             - Clear the terminal screen
+mkdir Day-01      - Create a new folder
+touch assignment.md - Create a new file
+
+#to push first commit:
+git init
+git status
+git add .
+git commit -m "Day 01 - Started DevOps Bootcamp"
+
+git remote add origin https://github.com/Raut-Rushi/DevOps-Bootcamp-2026.git
+git branch -M main
+git push -u origin main
