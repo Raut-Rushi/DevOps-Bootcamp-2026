@@ -1,0 +1,14 @@
+1. cp
+2. mv
+3. rm
+4. cat
+5. head
+6. tail
+7. less
+8. >
+9. >>
+10. *
+
+Examples:
+
+see in notes.md↩
