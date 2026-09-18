@@ -24,7 +24,7 @@
 * listing files commands:
 ---------------------------------------------------------------------------
 6. ls 
-- commonly used to list files and filders of current directory.
+- commonly used to list files and folders of current directory.
 ---------------------------------------------------------------------------
 7. ls -l
 - shows detailed information about files.
