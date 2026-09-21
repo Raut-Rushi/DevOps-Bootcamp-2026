@@ -1,0 +1,15 @@
+whoami   → Shows the current logged-in username.
+
+id       → Shows the user's UID, GID, and group information.
+
+groups   → Shows the groups the current user belongs to.
+
+who      → Shows users currently logged into the system.
+
+ps       → Shows processes running in the current terminal/session.
+
+ps aux   → Shows detailed information about all running processes.
+
+top      → Continuously monitors running processes and system resource usage.
+
+kill     → Sends a signal to stop or control a running process.
