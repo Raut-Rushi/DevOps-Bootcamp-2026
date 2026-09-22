@@ -1,0 +1,40 @@
+
+1. ps
+→Shows processes running in the current terminal/session.
+
+2. ps aux
+→Shows detailed information about all running processes.
+
+3. top 
+→Continuously monitors processes, CPU, and memory usage.
+
+4. kill
+→Sends a signal to stop/control a process using its PID.
+
+5. sleep
+→Pauses execution for a specified amount of time
+
+Example: sleep 5→ waits 5 seconds
+
+6. jobs
+→Shows background/stopped jobs in the current terminal.
+
+7. fg
+→Brings a background job to the foreground.
+
+Example: fg %1
+
+5. bg
+→Continues a stopped job in the background.
+
+example: bg %1
+
+6. systemctl
+→Manages services on systems using systemd.
+
+Example: sudo systemctl restart nginx
+
+7. apt
+→Installs, updates, and manages software packages on Debian/Ubuntu Linux
+
+Example: sudo apt install nginx
