@@ -1,0 +1,19 @@
+1. ipconfig
+
+- shows your windows network configuration and IP addresses
+- Example:>  ipconfig
+
+2. ping
+
+- check whether a device/ server reachable over the network
+- Example:> ping google.com
+
+3. nslookup
+
+-finds the ip address associated with a domain name using DNS 
+-Example: nslookup google.com
+
+4. curl
+
+- sends a request to a URL/server and displays the response. 
+- Example:> curl https://example.com    
