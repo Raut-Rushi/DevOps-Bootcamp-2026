@@ -1,0 +1,4 @@
+# NO commands 
+
+> ipconfig 
+- to see  IPV4 Address, Subnet mask
