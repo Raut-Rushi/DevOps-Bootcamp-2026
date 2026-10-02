@@ -1,0 +1,14 @@
+(nslookup google.com) ->it may return IP address for google.com
+
+(nslookup github.com)  -> it may return IP address for github.com
+
+(nslookup -type=MX gmail.com) -> check mail related DNS records
+
+(nslookup -type=NS google.com)   -> check name-server records.
+
+(ping google.com)  -> ping tests basic network reachability to another host using ICMP(Internet control message protocol)
+
+(curl -I https://google.com)  -> curl Sends requests to a server and is commonly used to test HTTP/HTTPS services and APIs
+                              -> -I means show the http response headers rather than downloading the whole page 
+
+(ipconfig /displaydns)   -> It shows the DNS resolver cache on your Windows computer.
