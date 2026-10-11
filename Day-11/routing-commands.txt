@@ -1,0 +1,27 @@
+1. ipconfig --->(what is my network configuration ?)
+
+Example->> ipconfig
+
+
+2. nslookup --->(what does DNS says?, naming & ip address)
+
+Example->> nslookup (Domain name)
+Example>> nslookup google.com
+
+
+3. ping     --->(can i reach it?)
+
+Example->> ping (ip address/ Domain name )
+
+
+4. tracert  --->(i reach but what path am i taking?)
+
+Example->> tracert google.com
+
+
+
+5. curl     --->(Does the service respond?)
+
+
+6. route print --> (Displays the windows routing print)
+
