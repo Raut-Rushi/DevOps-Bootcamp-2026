@@ -1,0 +1,25 @@
+
+
+# 1. Display IP address and subnet mask
+->> ipconfig
+
+# 2. Display detailed network configuration
+->> ipconfig /all
+
+# 3. Display the routing table
+->> route print
+
+# 4. Test local network connectivity
+->> ping 127.0.0.1
+
+# 5. Check connectivity to the default gateway
+->> ping <your-default-gateway-IP>
+
+# 6. Check DNS resolution
+->> nslookup google.com
+
+# 7. Trace the network path
+->> tracert google.com
+
+# 8. Display the local DNS cache
+->> ipconfig /displaydns
