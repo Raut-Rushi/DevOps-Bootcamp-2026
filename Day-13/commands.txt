@@ -1,0 +1,5 @@
+## 6. Important Commands
+- `curl.exe -I https://google.com` — Displays HTTP response headers.
+- `Test-NetConnection google.com -Port 443` — Tests TCP connectivity to port 443 in PowerShell.
+- `netstat -ano` — Displays network connections, listening ports, and process IDs.
+- `tasklist` — Lists running Windows processes.
