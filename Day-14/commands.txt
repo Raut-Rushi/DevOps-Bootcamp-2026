@@ -1,0 +1,27 @@
+# Day 14 — Network Troubleshooting Commands
+
+ipconfig
+- Display local IP configuration.
+
+ipconfig /all
+- Display detailed network configuration.
+
+nslookup github.com
+- Check DNS resolution.
+
+ping 127.0.0.1
+- Test the local TCP/IP stack using ICMP.
+
+ping <gateway-ip>
+- Test connectivity to the default gateway.
+
+route print
+- Display the Windows routing table.
+
+tracert github.com
+- Trace the network path toward a destination.
+
+curl.exe -I https://github.com
+- Check the HTTP response headers from GitHub.
+
+Note: Replace <gateway-ip> with the actual Default Gateway shown by ipconfig. A failed ping alone does not prove a server is down.
