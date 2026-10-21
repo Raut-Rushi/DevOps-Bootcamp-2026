@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------------------------
+git status              # Check file status
+git add notes.md        # Stage a file
+git add .               # Stage changes in current directory
+git diff                # View unstaged changes
+git diff --staged       # View staged changes
+git commit -m "message" # Commit staged changes
+git log -1 --oneline    # View the latest commit
+git push                # Upload commits to GitHub
+-------------------------------------------------------------------------------------------------
