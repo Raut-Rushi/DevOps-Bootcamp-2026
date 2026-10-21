@@ -253,4 +253,4 @@
 - Deploying application...
 - Deployment completed successfully.
 ---------------------------------------------------------------------------------------------------------------------------------
-# COMPLETED SCENARIO 1 SUCCESSFULLY✓
+# COMPLETED PRODUCTION- SERVER MINI PROJECT SUCCESSFULLY ✓
