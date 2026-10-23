@@ -1,0 +1,25 @@
+# Day 17 — Git Commands
+
+git log --oneline — Shows commit history in short form. (Note:to end press 'q')
+
+git log -3 --oneline — Shows the latest 3 commits.
+
+git show HEAD — Shows details of the latest commit.
+
+git diff HEAD~1 HEAD — Compares the latest commit with the previous commit.
+
+git status — Shows the current state of files and changes.
+
+git restore filename — Discards unstaged changes in a file.
+
+git restore --staged filename — Unstages a file but keeps its edits.
+
+git reset --soft HEAD~1 — Moves the branch back one commit while keeping changes staged.
+
+git reset --mixed HEAD~1 — Moves the branch back one commit and keeps changes unstaged.
+
+git reset --hard HEAD~1 — Moves the branch back one commit and discards affected working-file changes.
+
+git revert COMMIT_ID — Creates a new commit to undo the specified commit.
+
+git push — Uploads local commits to the remote repository.
