@@ -1,0 +1,10 @@
+# Important Git Commands
+
+```bash
+git branch                  # List branches
+git branch feature-login    # Create a branch
+git switch feature-login    # Switch to a branch
+git switch -c feature-login # Create and switch to a branch
+git merge feature-login     # Merge into the current branch
+git branch -d feature-login # Delete a merged branch
+```
