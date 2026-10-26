@@ -1,0 +1,21 @@
+# Day 19 — Git Commands
+
+git remote -v — Shows remote repository URLs.
+
+git clone URL — Copies a remote repository to your computer.
+
+git status — Shows the current state of files.
+
+git fetch — Downloads remote updates without integrating them.
+
+git pull — Fetches and integrates remote changes.
+
+git push — Uploads local commits to the remote repository.
+
+git push -u origin branch-name — Pushes a branch and sets its upstream tracking connection.
+
+git log --oneline — Shows commit history in short form.
+
+git add filename — Stages changes in a file.
+
+git commit -m "message" — Saves staged changes in local Git history.
