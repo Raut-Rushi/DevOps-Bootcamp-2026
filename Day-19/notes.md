@@ -1,3 +1,8 @@
+![Git Workflow](handwritten-notes/D-19-1.jpg)
+![Git Workflow](handwritten-notes/D-19-2.jpg)
+![Git Workflow](handwritten-notes/D-19-3.jpg)
+![Git Workflow](handwritten-notes/D-19-4.jpg)
+
 # Day 19 — GitHub Remote Workflow
 
 ## 1. Local vs Remote Repository
