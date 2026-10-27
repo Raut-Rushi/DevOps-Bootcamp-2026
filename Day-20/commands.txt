@@ -1,0 +1,19 @@
+# Day 20 — Git Commands
+
+git status — Checks the current state of files.
+
+git switch main — Switches to the main branch.
+
+git pull — Fetches and integrates remote changes.
+
+git switch -c day20-pr-practice — Creates and switches to a new practice branch.
+
+git add Day-20/pr-practice.txt — Stages the practice file.
+
+git commit -m "Add Day 20 pull request practice" — Saves staged changes in local Git history.
+
+git push -u origin day20-pr-practice — Pushes the branch to GitHub and sets its upstream.
+
+git diff --staged — Shows staged changes before committing.
+
+git log --oneline — Displays commit history in short form.
