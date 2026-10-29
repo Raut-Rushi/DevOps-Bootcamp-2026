@@ -1,0 +1,34 @@
+DAY 21 - GIT BOSS FIGHT COMMANDS
+
+# Create a practice repository
+git init
+git branch -M main
+
+# Create and switch branches
+git switch -c developer-a
+git switch main
+git switch -c developer-b
+
+# Check repository status
+git status
+
+# View branches
+git branch
+
+# Merge a branch
+git merge developer-a
+
+# Stage resolved changes
+git add app.txt
+
+# Complete a merge if required
+git commit -m "Resolve merge conflict"
+
+# View commit history
+git log --oneline
+
+# View branches and commits graph
+git log --oneline --graph --all
+
+# Check recent commit details
+git show HEAD
