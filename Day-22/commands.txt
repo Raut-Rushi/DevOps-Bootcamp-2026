@@ -1,0 +1,40 @@
+DAY 22 - BASH SCRIPTING COMMANDS
+
+# Check current directory
+pwd
+
+# List files
+ls
+
+# Create a script file
+touch hello.sh
+
+# Display text
+echo "Welcome to DevOps"
+
+# Display current date and time
+date
+
+# Display current username
+whoami
+
+# Run a Bash script
+bash hello.sh
+
+# Give execute permission
+chmod +x hello.sh
+
+# Run an executable script
+./hello.sh
+
+# Check Git changes
+git status
+
+# Stage Day 22 files
+git add Day-22/
+
+# Commit changes
+git commit -m "Day 22 - Bash Scripting Fundamentals"
+
+# Push changes to GitHub
+git push
