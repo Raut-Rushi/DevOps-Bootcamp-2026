@@ -1,0 +1,47 @@
+DAY 23 - BASH COMMANDS
+
+# Create script files
+touch input.sh
+touch greet.sh
+touch service-check.sh
+
+# Run a Bash script
+bash input.sh
+bash greet.sh Rushi "DevOps Engineer"
+
+# Display script arguments
+echo "$0"
+echo "$1"
+echo "$2"
+echo "$#"
+echo "$@"
+
+# Check command status
+ls
+echo $?
+
+# Test a command that should fail
+ls /this-folder-does-not-exist
+echo $?
+
+# Run service command availability checks
+bash service-check.sh git
+bash service-check.sh curl
+
+# Run without the required argument
+bash service-check.sh
+
+# Give execute permission in a Bash-compatible environment
+chmod +x service-check.sh
+
+# Check Git changes
+git status
+
+# Stage Day 23 files
+git add Day-23/
+
+# Commit changes
+git commit -m "Day 23 - Bash Input and Exit Codes"
+
+# Push to GitHub
+git push
