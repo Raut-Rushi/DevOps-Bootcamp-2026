@@ -1,0 +1,37 @@
+DAY 24 - BASH CONDITIONAL COMMANDS
+
+# Create script files
+touch file-check.sh
+touch command-check.sh
+
+# Create a sample file
+echo "DevOps practice" > app.txt
+
+# Check whether a file exists
+bash file-check.sh app.txt
+
+# Check a missing file
+bash file-check.sh missing.txt
+
+# Test without a filename
+bash file-check.sh
+
+# Check whether commands are available
+bash command-check.sh git
+bash command-check.sh curl
+bash command-check.sh unknowncommand123
+
+# Check current directory
+pwd
+
+# Check Git status
+git status
+
+# Stage Day 24 files
+git add Day-24/
+
+# Commit changes
+git commit -m "Day 24 - Bash Conditional Statements"
+
+# Push changes to GitHub
+git push
